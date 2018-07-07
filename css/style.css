@@ -764,11 +764,6 @@ a {
   -o-box-shadow: 0px 0px 30px 10px #000;
   -webkit-box-shadow: 0px 0px 30px 10px #000;
   box-shadow: 0px 0px 30px 10px #000;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
 }
 .archives-wrap:first-child {
   margin-top: 30px;
@@ -990,8 +985,9 @@ a {
   float: left;
 }
 .article-info-index.article-info {
-  padding-top: 20px;
-  margin: 30px 30px 0 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 30px 0 30px;
   border-top: 1px solid #ddd;
 }
 .article-info-post.article-info {
@@ -1001,6 +997,7 @@ a {
 }
 .article-entry {
   line-height: 1.8em;
+  padding-bottom: 20px;
   padding-right: 30px;
   padding-left: 30px;
 }
@@ -1150,10 +1147,10 @@ a {
   z-index: 1;
 }
 .article-meta time {
-  color: #0ff;
+  color: #51a8dd;
 }
 .article-meta time:before {
-  color: #0ff;
+  color: #51a8dd;
   content: "\f073";
   font: 17px FontAwesome;
   margin-right: 10px;
