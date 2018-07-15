@@ -28,7 +28,8 @@ require([], function (){
 		        }
 		      },
 		      "color": {
-		        "value": ['#0fc', '#0ff', '#ccc', '#ffa500', '#7b5d5f', '#ff945c', '#cfb7c4']
+		        //"value": ['#eea9a9', '#ccc', '#ffa500', '#7b5d5f', '#ff945c', '#cfb7c4']
+		        "value": ['#eea9a9', '#d7c4bb', '#b28fcf', '#ffab40', '#b3e5fc']
 		      },
 		      "shape": {
 		        "type": "circle",
@@ -46,7 +47,7 @@ require([], function (){
 		        }
 		      },
 		      "opacity": {
-		        "value": 0.5,
+		        "value": 0.8,
 		        "random": false,
 		        "anim": {
 		          "enable": false,
@@ -67,9 +68,9 @@ require([], function (){
 		      },
 		      "line_linked": {
 		        "enable": true,
-		        "distance": 150,
-		        "color": "#ff945c",
-		        "opacity": 0.4,
+		        "distance": 200,
+		        "color": "#7eb9de",
+		        "opacity": 0.8,
 		        "width": 1
 		      },
 		      "move": {
